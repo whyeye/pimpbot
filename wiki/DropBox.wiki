@@ -5,5 +5,5 @@ Dropbox is a storage application and service operated by Evenflow, Inc. The serv
 
 ==External Links==
 
-[http://www.getdropbox.com/ Dropbox Website]<br/>
+[http://www.getdropbox.com/ Official Website]<br/>
 [http://en.wikipedia.org/wiki/Dropbox_(storage_provider) Wikipedia Article]
