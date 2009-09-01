@@ -1,6 +1,6 @@
 =Description=
 
-PimpBot currently consists of three components: Compiler, Runtime and Backup. The compiler package contains all of these components, Runtime and Backup are also available as seperate downloads.
+PimpBot currently consists of three components: Compiler, Runtime and Backup. The compiler package contains all of these components, Runtime and Backup are also available as [http://code.google.com/p/pimpbot/downloads/list?can=1 seperate] downloads.
 
 ==Compiler==
 A graphical interface that allows the creation of customizable NSIS installers for AVS, MilkDrop and SPS packs.
