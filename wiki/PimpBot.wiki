@@ -2,11 +2,11 @@
 
 PimpBot currently consists of three components: Compiler, Runtime and Backup. The compiler package contains all of these components, Runtime and Backup are also available as seperate downloads.
 
-==PimpBot Compiler==
+==Compiler==
 A graphical interface that allows the creation of customizable NSIS installers for AVS, MilkDrop and SPS packs.
 
-==PimpBot Runtime==
+==Runtime==
 As the compiler saves project files ("pimp-files") that contain all the installer's data and settings, you can use Runtime to create an installer from a pimp-file without compiling into an executable.
 
-==PimpBot Backup==
+==Backup==
 The backup component allows quick backups of AVS, MilkDrop and SPS presets installed on your computer. Compressed into an datestamped 7-Zip archive, the file will be copied to a local folder, FTP server, WebDAV or DropBox. One of the the backup components special features is the ability to do two backups at once.
