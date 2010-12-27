@@ -88,7 +88,7 @@ contains all required fonts, can be TrueType or OpenType
 <br> contains your images, videos, colormaps, models etc.
 
 *license.txt*
-<br>your license text, can be plaintext (_.txt_) or rich text (_.rtf_)
+<br>your license text, can be plaintext (_.txt_) or richtext (_.rtf_)
 
 */ui*
 <br>contains your interface resources, as listed below
