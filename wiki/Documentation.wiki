@@ -58,7 +58,7 @@
 <br>disables splash screen
 
 */S*
-<br/>runs the installer silenty; case-sensitive switch
+<br>runs the installer silenty; case-sensitive switch
 
 */unzip*
-<br/>extracts the contents of the installer to the current directory 
+<br>extracts the contents of the installer to the current directory 
