@@ -39,4 +39,4 @@ contains all required fonts, can be TrueType or OpenType
 <br>e.g. _4000.wav_ (displays 4000 milliseconds or 4 seconds)
 
 *wizard.bmp*
-the image for your finish page
+<br>the image for your finish page
