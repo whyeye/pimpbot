@@ -57,6 +57,10 @@
 */nosplash*
 <br>disables splash screen
 
+*/D*
+<br>overrides target directory
+<br>e.g. _/D=C:\Program Files\Winamp_
+
 */S*
 <br>runs the installer silenty; case-sensitive switch
 
