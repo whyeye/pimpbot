@@ -1,0 +1,66 @@
+=Insights=
+
+==Commandline Parameters==
+===PimpBot Compiler===
+*/help -?*
+<br>shows program version and a list of available commandline switches
+
+*/defaults*
+<br>allows the customization of default settings, saved in _%APPDATA%\PimpBot\defaults.ini_
+
+*/loaddir -ld*
+<br>load files from a directory; directory must follow sensible defaults
+<br>e.g. _/loaddir="C:\My Directory"_
+
+*/loadfile -lf*
+<br>load a .pimp file, can be combined with the _/passive_ command
+<br>e.g. _/loadfile="C:\path\to\myfile.pimp"_
+
+*/noexe -nx*
+<br>PimpBot skips making an installer, but creates a .pimp file
+<br>e.g. _/noexe=1_
+
+*/nomui -nm*
+<br>will use the default NSIS UI instead of Modern UI, does not support settings page or wizard image
+<br>e.g. _/nomui=1_
+
+*/nopimp -np*
+<br>PimpBot creates an installer, but skips the _.pimp_ file
+<br>e.g. _/pimp=1_
+
+*/outdir -od*
+<br>override the default output directory, requires a valid directory
+<br>e.g. _/output="C:\My Directory"_
+
+*/outfile -of*
+<br>override the default output filename, requires a valid directory
+<br>e.g. _/output="I like this Name"_
+
+*/passive -pv*
+<br>used with the _/loadfile_ command, this will compile an installer silently
+<br>e.g. _/loadfile="C:\path\to\myfile.pimp" /passive=1_
+
+===PimpBot Installer===
+*/help -?*
+<br>shows a list of available commandline switches
+
+*/debug -db*
+<br>displays extra information during installation
+
+*/details*
+<br>forces an installer to verbose mode to review its actions
+
+*/lang*
+<br>allows the selection of an installer language (multilingual installers only)
+
+*/nocheck*
+<br>disables the validation of the Winamp directory, useful for third-party players (e.g. _foobar2000_)
+
+*/nosplash*
+<br>disables splash screen
+
+*/S*
+<br/>runs the installer silenty; case-sensitive switch
+
+*/unzip*
+<br/>extracts the contents of the installer to the current directory 
