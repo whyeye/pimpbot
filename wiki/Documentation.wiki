@@ -57,12 +57,12 @@
 */nosplash*
 <br>disables splash screen
 
+*/unzip*
+<br>extracts the contents of the installer to the current directory 
+
 */D*
 <br>overrides target directory
 <br>e.g. _/D=C:\Program Files\Winamp_
 
 */S*
 <br>runs the installer silenty; case-sensitive switch
-
-*/unzip*
-<br>extracts the contents of the installer to the current directory 
