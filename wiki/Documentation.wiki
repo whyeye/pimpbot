@@ -1,5 +1,5 @@
-==Commandline Parameters==
-===PimpBot Compiler===
+=Commandline Parameters=
+==PimpBot Compiler==
 */help -?*
 <br>shows program version and a list of available commandline switches
 
@@ -38,7 +38,7 @@
 <br>used with the _/loadfile_ command, this will compile an installer silently
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /passive=1_
 
-===Installer===
+==Installer==
 */help -?*
 <br>shows a list of available commandline switches
 
@@ -66,3 +66,5 @@
 
 */S*
 <br>runs the installer silenty; case-sensitive switch
+
+=DropFolder=
