@@ -52,3 +52,28 @@ The backup component allows quick backups of AVS, MilkDrop and SPS presets insta
 */passive -pv*
 <br>used with the _/loadfile_ command, this will compile an installer silently
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /passive=1_
+
+===PimpBot Installer===
+*/help -?*
+<br>shows a list of available commandline switches
+
+*/debug -db*
+<br>displays extra information during installation
+
+*/details*
+<br>forces an installer to verbose mode to review its actions
+
+*/lang*
+<br>allows the selection of an installer language (multilingual installers only)
+
+*/nocheck*
+<br>disables the validation of the Winamp directory, useful for third-party players (e.g. _foobar2000_)
+
+*/nosplash*
+<br>disables splash screen
+
+*/S*
+<br/>runs the installer silenty; case-sensitive switch
+
+*/unzip*
+<br/>extracts the contents of the installer to the current directory 
