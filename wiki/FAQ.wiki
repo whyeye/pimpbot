@@ -3,11 +3,17 @@
 ===Why is my installer reported as virus/malware?===
 This is a common problem with all installers generated with NSIS. In most cases this should be a false-positive, that you should report to the manufacturer of your anti-virus software. For more detail read this [http://nsis.sourceforge.net/NSIS_False_Positives article] from the NSIS Wiki.
 
+---- 
+
 ===How can I install my pack to a subdirectory?===
 To install your pack into a subdirectory such as _Winamp\Plugins\avs\MyNick\MyPack_ you need to store your desired directory-structure in a directory _MyDirectory_. In PimpBot, choose this directory as the source of your presets and activate the Include Subdirs checkbox. This will work with any directory-structure, be it multiple directories or x subdirectories. 
 
+---- 
+
 ===Why is my installer file so big?===
 This usually happens when including big splash screens or sounds. You should always reduce the color-palette of bitmaps and save themin the lowest possible colordepth and use [http://en.wikipedia.org/wiki/Run-length_encoding Run-length Encoding] (RLE compression). For splash sounds you can apply compression at low bitrates (e.g. 32kbps Mono), However, you must maintain the WAVE file format. Tools such as [http://cdex.sourceforge.net CDex] (and most other tools using [http://lame.sourceforge.net/ LAME]) have the option to compress to [http://www.afterdawn.com/glossary/terms/riff-wav.cfm RIFF-WAVE].
+
+---- 
 
 ===Why is the background of some textfields colored green, yellow or red?===
 PimpBot uses color indicators to give direct response to the user. Mandatory fields have a yellow background, correctly entered data will have green and invalid data a red background.
