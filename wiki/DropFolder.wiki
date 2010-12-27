@@ -1,0 +1,42 @@
+=DropFolder=
+
+When sticking to a certain workflow, you can build an installer by simply dragging a folder with all your files on top of the PimpBot icon. We called this feature _DropFolder_.
+
+To use _DropFolder_, you must stick to certain sensible defaults. This affects the structure of the data for the installer and naming conventions.
+
+*/Name of my Pack*
+<br>Topmost folder, directory name will be used for installer name. 
+
+Everything following is inside of _/Name of my Pack_!
+
+*/avs*
+<br>contains your presets, can be named_avs_, _milk_ or _sps_
+
+*/fonts*
+contains all required fonts, can be TrueType or OpenType
+
+*/etc*
+<br> contains your images, videos, colormaps, models etc.
+
+*license.txt*
+<br>your license text, can be plaintext (_.txt_) or richtext (_.rtf_)
+
+*/ui*
+<br>contains your interface resources, as listed below
+
+*checks.bmp*
+<br>the bitmap for your installer checkboxes
+
+*icon.icon*
+<br>the icon used for your installer
+
+*splash.bmp*
+<br>image for your splash screen. file-name can be three-digit hexadecimal for alpha channel
+<br>e.g. _#f0f.bmp_ (magenta == transparent)
+
+*splash.wav*
+<br>wave sound for your splash screen. file-name can numerical for display lenght.
+<br>e.g. _4000.wav_ (displays 4000 milliseconds or 4 seconds)
+
+*wizard.bmp*
+the image for your finish page
