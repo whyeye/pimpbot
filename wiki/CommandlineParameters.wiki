@@ -39,6 +39,8 @@
 <br>used with the _/loadfile_ command, this will compile an installer silently
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /passive=1_
 
+---- 
+
 ==Installer==
 */help -?*
 <br>shows a list of available commandline switches
