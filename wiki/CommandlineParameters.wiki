@@ -64,7 +64,7 @@
 <br>extracts the contents of the installer to the current directory 
 
 */D*
-<br>overrides target directory
+<br>overrides target directory; case-sensitive switch
 <br>e.g. _/D=C:\Program Files\Winamp_
 
 */S*
