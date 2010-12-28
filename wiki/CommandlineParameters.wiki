@@ -45,7 +45,7 @@
 */help -?*
 <br>shows a list of available commandline switches
 
-*/debug -db*
+*/debug*
 <br>displays extra information during installation
 
 */details*
