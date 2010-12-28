@@ -7,6 +7,10 @@
 */defaults*
 <br>allows the customization of default settings, saved in _%APPDATA%\PimpBot\defaults.ini_
 
+*/detectape -da*
+<br>used with the _/loadfile_ command, this will detect required APEs
+<br>e.g. _/loadfile="C:\path\to\myfile.pimp" /detectape=1_
+
 */loaddir -ld*
 <br>load files from a directory; directory must follow sensible defaults
 <br>e.g. _/loaddir="C:\My Directory"_
