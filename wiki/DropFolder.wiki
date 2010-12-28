@@ -40,3 +40,5 @@ contains all required fonts, can be TrueType or OpenType
 
 *wizard.bmp*
 <br>the image for your finish page
+
+For details, make sure to watch this [http://vimeo.com/8446980 video] on Vimeo!
