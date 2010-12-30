@@ -23,7 +23,7 @@ PimpBot uses color indicators to give direct response to the user. Mandatory fie
 ===Why does compilation fail and the _error.log_ is empty?===
 There might be many reasons for this. However, during all the testing we only came across this one following example.
 
-By default, NSIS has a maximum string length of 1024 bytes. If you're installers includes a _lot_ of directories and you're trying to use a settings page, compilation will fail. In that case install the [http://nsis.sourceforge.net/Special_Builds NSIS Special Build] for large strings.
+By default, [NSIS] has a maximum string length of 1024 bytes. If you're installers includes a _lot_ of directories and you're trying to use a settings page, compilation will fail. In that case install the [http://nsis.sourceforge.net/Special_Builds NSIS Special Build] for large strings.
 
 ----
 
