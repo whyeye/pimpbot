@@ -1,7 +1,7 @@
 =Frequently Asked Questions=
 
 ===Why is my installer reported as virus/malware?===
-This is a common problem with all installers generated with NSIS. In most cases this should be a false-positive, that you should report to the manufacturer of your anti-virus software. For more detail read this [http://nsis.sourceforge.net/NSIS_False_Positives article] from the NSIS Wiki.
+This is a common problem with all installers generated with [NSIS]. In most cases this should be a false-positive, that you should report to the manufacturer of your anti-virus software. For more detail read this [http://nsis.sourceforge.net/NSIS_False_Positives article] from the NSIS Wiki.
 
 ---- 
 
