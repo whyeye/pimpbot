@@ -1,3 +1,3 @@
-==Advanced Visualization Studio (AVS)==
+Advanced Visualization Studio (AVS), is a music visualization plugin for [Winamp]. It was designed by Winamp's creator, Justin Frankel. AVS has a customizable design which allows users to create their own visualization effects, or "presets". AVS was made open source software in May 2005, released under a BSD-style license. AVS is currently at version 2.82 and is included with Winamp.
 
-Advanced Visualization Studio (AVS), is a music visualization plugin for Winamp. It was designed by Winamp's creator, Justin Frankel. AVS has a customizable design which allows users to create their own visualization effects, or "presets". AVS was made open source software in May 2005, released under a BSD-style license. AVS is currently at version 2.82 and is included with Winamp.
+*[http://www.nullsoft.com/free/avs/ AVS]* | [http://visbot.net/tools Download] | [http://visbot.net/faq/ How to setup AVS?] | [http://visbot.net/releases Get presets!]
