@@ -1,5 +1,3 @@
-=DropFolder=
-
 When sticking to a certain workflow, you can build an installer by simply dragging a folder with all your files on top of the PimpBot icon. We called this feature _DropFolder_.
 
 To use _DropFolder_, you must stick to certain sensible defaults. This affects the structure of the data for the installer and naming conventions.
