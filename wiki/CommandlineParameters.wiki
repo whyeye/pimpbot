@@ -17,6 +17,11 @@
 <br>load a .pimp file, can be combined with the _/passive_ command
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp"_
 
+*/loadui -ui*
+<br>load a custom UI file, automatically detects standard and modern UI files
+<br>e.g. _e.g. /loadui="C:\Path\to\\My UI.exe"_
+<br>e.g. _e.g. /loadui="sdbarker_tiny.exe"_
+
 */noexe -nx*
 <br>PimpBot skips making an installer, but creates a .pimp file
 <br>e.g. _/noexe=1_
