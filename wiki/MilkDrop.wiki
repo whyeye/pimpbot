@@ -1,5 +1,3 @@
-==Description==
-
 MilkDrop is a hardware-accelerated music visualization plugin for Winamp, which was originally developed by Ryan Geiss. It uses DirectX. MilkDrop is an environment for running presets, software which controls MilkDrop, and does not produce visualizations by itself. MilkDrop uses a complex system of interpolation to transition between presets gradually through time, creating a constantly changing visual experience.
 
 
