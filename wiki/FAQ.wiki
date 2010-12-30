@@ -10,7 +10,7 @@ To install your pack into a subdirectory such as _Winamp\Plugins\avs\MyNick\MyPa
 
 ---- 
 
-===Why is my installer file so big?===
+===Why is my installer file so huge?===
 This usually happens when including big splash screens or sounds. You should always reduce the color-palette of bitmaps and save themin the lowest possible colordepth and use [http://en.wikipedia.org/wiki/Run-length_encoding Run-length Encoding] (RLE compression). For splash sounds you can apply compression at low bitrates (e.g. 32kbps Mono), However, you must maintain the WAVE file format. Tools such as [http://cdex.sourceforge.net CDex] (and most other tools using [http://lame.sourceforge.net/ LAME]) have the option to compress to [http://www.afterdawn.com/glossary/terms/riff-wav.cfm RIFF-WAVE].
 
 ---- 
@@ -24,3 +24,8 @@ PimpBot uses color indicators to give direct response to the user. Mandatory fie
 There might be many reasons for this. However, during all the testing we only came across this one following example.
 
 By default, NSIS has a maximum string length of 1024 bytes. If you're installers includes a _lot_ of directories and you're trying to use a settings page, compilation will fail. In that case install the [http://nsis.sourceforge.net/Special_Builds NSIS Special Build] for large strings.
+
+----
+
+===Is it possible to compile multiple _.pimp_ files at once?===
+You can use the CommandlineParameters
