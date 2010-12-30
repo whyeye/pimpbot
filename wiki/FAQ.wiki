@@ -9,7 +9,7 @@ PimpBot uses color indicators to give direct response to the user. Mandatory fie
 ----
 
 ===How can I install my pack to a sub-folder?===
-To install your pack into a subdirectory such as _Winamp\Plugins\avs\MyNick\MyPack_ you need to store your desired directory-structure in a directory _MyDirectory_. In PimpBot, choose this directory as the source of your presets and activate the Include Subdirs checkbox. This will work with any directory-structure, be it multiple directories or x subdirectories. 
+To install your pack into a subdirectory such as _Winamp\Plugins\avs\My Nick\My Pack_ you need to store your desired directory-structure in a directory _MyDirectory_. In PimpBot, choose this directory as the source of your presets and activate the Include Subdirs checkbox. This will work with any directory-structure, be it multiple directories or x subdirectories. 
 
 ----
 
