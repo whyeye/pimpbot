@@ -28,4 +28,4 @@ By default, NSIS has a maximum string length of 1024 bytes. If you're installers
 ----
 
 ===Is it possible to compile multiple _.pimp_ files at once?===
-You can use the CommandlineParameters
+You can use the CommandlineParameters to control PimpBot's behaviour. In the installation directory of PimpBot, you will find a couple of useful scripts in the _/tools_ folder. Right-click the file called _mcompiler.nsis_ and choose to "Compile NSIS script." This will create an executable that helps you to compile many files sequentially.
