@@ -1,6 +1,3 @@
 Dropbox is a storage application and service operated by Evenflow, Inc. The service enables users to store and sync files online and between computers. Dropbox has a cross-platform client (Windows, Mac and Linux) that enables users to drop any file into a Dropbox folder that is then synced to the web and the users' other computers with the Dropbox client. Files in the Dropbox folder may then be shared with other Dropbox users or accessed from the web. Users may also upload files manually through a web browser.
 
-
-==External Links==
-
 *[http://db.tt/BqHXaZJ/ Website]* | [http://en.wikipedia.org/wiki/Dropbox_(storage_provider) Wikipedia]
