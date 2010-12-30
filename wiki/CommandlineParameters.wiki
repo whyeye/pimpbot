@@ -46,6 +46,10 @@
 <br>used with the _/loadfile_ command, this will compile an installer silently
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /passive=1_
 
+*/waskin -ws*
+<br>injects a Winamp skin to the installer, can be installed optionally
+<br>e.g. _/waskin="C:\Path\to\My Skin.wsz"_
+
 ----
 
 ==Installer==
