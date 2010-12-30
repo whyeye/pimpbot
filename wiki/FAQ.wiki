@@ -34,6 +34,10 @@ You can use the CommandlineParameters to control PimpBot's behaviour. In the ins
 
 In very unusual Winamp setups, it can might happen that an installer does not recognize your Winamp installation correctly. It might also happen, that the DLL of the used visualization plugin can not be found.
 
-There are several workarounds available. Two of them involve passing CommandlineParameters to your installer, it is thus recommended to use simple tools such as [http://rwparam.whyeye.org/ RunWithParameters]. The _/unzip_ switch can be used to extract all contents of the installer to the current directory (e.g. "_My Installer.exe /unzip"_.) The [NSIS] default /D switch will set your preferred installation directory (e.g. "_My Installer.exe /D=C:\Program Files\Winamp"_.)
+There are several workarounds available. Two of them involve passing CommandlineParameters to your installer, it is thus recommended to use simple tools such as [http://rwparam.whyeye.org/ RunWithParameters].
+
+The _/unzip_ switch can be used to extract all contents of the installer to the current directory (e.g. "_My Installer.exe /unzip"_.) 
+
+[NSIS]'s default _/D_ switch will set your preferred installation directory (e.g. "_My Installer.exe /D=C:\Program Files\Winamp"_.)
 
 If the problem persists, even after removing and installing Winamp, please report an [http://code.google.com/p/pimpbot/issues/list Issue].
