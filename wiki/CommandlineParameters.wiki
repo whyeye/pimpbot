@@ -1,5 +1,3 @@
-=Commandline Parameters=
-
 ==PimpBot Compiler==
 */help -?*
 <br>shows program version and a list of available commandline switches
