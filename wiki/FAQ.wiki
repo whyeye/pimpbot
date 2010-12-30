@@ -3,6 +3,11 @@ This is a common problem with all installers generated with [NSIS]. In most case
 
 ----
 
+===Why is the background of some textfields colored green, yellow or red?===
+PimpBot uses color indicators to give direct response to the user. Mandatory fields have a yellow background, correctly entered data will have green and invalid data a red background.
+
+----
+
 ===How can I install my pack to a sub-folder?===
 To install your pack into a subdirectory such as _Winamp\Plugins\avs\MyNick\MyPack_ you need to store your desired directory-structure in a directory _MyDirectory_. In PimpBot, choose this directory as the source of your presets and activate the Include Subdirs checkbox. This will work with any directory-structure, be it multiple directories or x subdirectories. 
 
@@ -10,11 +15,6 @@ To install your pack into a subdirectory such as _Winamp\Plugins\avs\MyNick\MyPa
 
 ===Why is my installer file so huge?===
 This usually happens when including big splash screens or sounds. You should always reduce the color-palette of bitmaps and save themin the lowest possible colordepth and use [http://en.wikipedia.org/wiki/Run-length_encoding Run-length Encoding] (RLE compression). For splash sounds you can apply compression at low bitrates (e.g. 32kbps Mono), However, you must maintain the WAVE file format. Tools such as [http://cdex.sourceforge.net CDex] (and most other tools using [http://lame.sourceforge.net/ LAME]) have the option to compress to [http://www.afterdawn.com/glossary/terms/riff-wav.cfm RIFF-WAVE].
-
-----
-
-===Why is the background of some textfields colored green, yellow or red?===
-PimpBot uses color indicators to give direct response to the user. Mandatory fields have a yellow background, correctly entered data will have green and invalid data a red background.
 
 ----
 
