@@ -19,8 +19,8 @@
 
 */loadui -ui*
 <br>load a custom UI file, automatically detects standard and modern UI files
-<br>e.g. _e.g. /loadui="C:\Path\to\\My UI.exe"_
-<br>e.g. _e.g. /loadui="sdbarker_tiny.exe"_
+<br>e.g. _/loadui="C:\Path\to\\My UI.exe"_
+<br>e.g. _/loadui="sdbarker_tiny.exe"_
 
 */noexe -nx*
 <br>PimpBot skips making an installer, but creates a .pimp file
