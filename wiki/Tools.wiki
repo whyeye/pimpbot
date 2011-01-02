@@ -20,4 +20,4 @@ You want to rebuild an old installer, but don't have the sourcefiles anymore? Dr
 Basically the same as a settings page in your installer as a standalone application.
 
 *zipntag.nsi*<br>
-Allows compressing multiple files and adding a text-file ("tag") to it. This function is also included in _MultiTool_.
+Allows compressing multiple files and adding a text-file ("tag") to it. This function is also included in _Multitool_. Requires setting up some definitions in the header of the source-code.
