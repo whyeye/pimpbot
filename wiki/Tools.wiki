@@ -9,4 +9,12 @@ Over the years, there were several changes to the structure of a _.pimp_ file. T
 This script hasn't much to do with PimpBot, but it allows you to migrate your [Winamp] installation to a multi-user environment. You migrate plugins, skins and/or your settings.
 
 *multitool.nsi*
-If you need to update all your installers, this is probably the tool you're looking for. It allows the creation of executables from multiple _.pimp_ files. You can compile installers using [CommandlineParameters]
+If you need to update all your installers, this is probably the tool you're looking for. It allows the creation of executables from multiple _.pimp_ files. You can compile installers using [CommandlineParameters].
+
+Besides the graphical intervace, you can also use PimpBot Multitool in textmode. Create a standard textfile, put the full path to a _.pimp_ file in each line and drop it on the executable.
+
+*resourcegrab.nsi*
+You want to rebuild an old installer, but don't have the sourcefiles anymore? Drop the installer on the ResourceGrab to extract icons, checkboxes and splash files. Requires [http://www.angusj.com/resourcehacker/ ResHacker] in the same directory, the parent directory or your _PimpBot\bin_ folder.
+
+*settings.nsi*
+Basically the same as a settings page in your installer as a standalone application.
