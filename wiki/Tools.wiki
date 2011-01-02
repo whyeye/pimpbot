@@ -1,1 +1,12 @@
 Hidden not-so-deep in your PimpBot install folder are a couple of scripts that might turn out to be useful for you. To use any of these, you need to compile them into binaries. As the installation of [NSIS] is mandatory with any version of PimpBot, you should be set to go. All it takes is a right click on one of the scripts and choose "_Compile NSIS script_" from your context-menu.
+
+Let take a look at these scripts:
+
+*converter.nsi*
+Over the years, there were several changes to the structure of a _.pimp_ file. This script will convert them to the latest standard. You might not need this, as PimpBot 4 converts outdated files by default.
+
+*migrator.nsi*
+This script hasn't much to do with PimpBot, but it allows you to migrate your [Winamp] installation to a multi-user environment. You migrate plugins, skins and/or your settings.
+
+*multitool.nsi*
+If you need to update all your installers, this is probably the tool you're looking for. It allows the creation of executables from multiple _.pimp_ files. You can compile installers using [CommandlineParameters]
