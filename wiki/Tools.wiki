@@ -1,13 +1,1 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Hidden not-so-deep in your PimpBot install folder are a couple of scripts that might turn out to be useful for you. To use any of these, you need to compile them into binaries. As the installation of NSIS is mandatory with any version of PimpBot, you should be set to go. All it takes is a right click on one of the scripts and choose "Compile NSIS script" from your context-menu.
