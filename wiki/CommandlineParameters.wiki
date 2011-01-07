@@ -26,6 +26,10 @@
 <br>PimpBot skips making an installer, but creates a .pimp file
 <br>e.g. _/noexe=1_
 
+*/nolegacy -nl*
+<br>PimpBot will only include APEs for Winamp 5 and later (not recommended)
+<br>e.g. _/nolegacy=1
+
 */nomui -nm*
 <br>will use the default NSIS UI instead of Modern UI, does not support settings page or wizard image
 <br>e.g. _/nomui=1_
