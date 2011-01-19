@@ -22,6 +22,10 @@
 <br>e.g. _/loadui="C:\Path\to\\My UI.exe"_
 <br>e.g. _/loadui="sdbarker_tiny.exe"_
 
+*/noavs -nx*
+<br>PimpBot creates an installer that requires no presets, useful for "resource packs" (textures, filters, colormaps etc.)
+<br>e.g. _/noavs=1_
+
 */noexe -nx*
 <br>PimpBot skips making an installer, but creates a .pimp file
 <br>e.g. _/noexe=1_
