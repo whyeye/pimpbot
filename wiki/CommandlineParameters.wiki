@@ -58,6 +58,10 @@
 <br>injects a Winamp skin to the installer, can be installed optionally
 <br>e.g. _/waskin="C:\Path\to\My Skin.wsz"_
 
+*/ziptag -zt*
+<br>compresses installer and adds a tag-file to it
+<br>e.g. _/ziptag="C:\Path\to\My Tag.diz"_
+
 ----
 
 ==Installer==
