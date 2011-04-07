@@ -5,9 +5,8 @@
 */defaults*
 <br>allows the customization of default settings, saved in _%APPDATA%\PimpBot\defaults.ini_
 
-*/detectape -da*
-<br>used with the _/loadfile_ command, this will detect required APEs
-<br>e.g. _/loadfile="C:\path\to\myfile.pimp" /detectape=1_
+<strike>*/detectape -da*</strike>
+<br>renamed to */scanape} as of PimpBot 4.2
 
 */loaddir -ld*
 <br>load files from a directory; directory must follow sensible defaults
@@ -53,6 +52,14 @@
 */passive -pv*
 <br>used with the _/loadfile_ command, this will compile an installer silently
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /passive=1_
+
+*/scanape -sa*
+<br>used with the _/loadfile_ command, this will detect required APEs
+<br>e.g. _/loadfile="C:\path\to\myfile.pimp" /scanape=1_
+
+*/scanres -sr*
+<br>used with the _/loadfile_ command, this will detect required resource files (images, videos etc.)
+<br>e.g. _/loadfile="C:\path\to\myfile.pimp" /scanres=1_
 
 */waskin -ws*
 <br>injects a Winamp skin to the installer, can be installed optionally
