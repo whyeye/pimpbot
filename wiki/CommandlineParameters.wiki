@@ -6,7 +6,7 @@
 <br>allows the customization of default settings, saved in _%APPDATA%\PimpBot\defaults.ini_
 
 <strike>*/detectape -da*</strike>
-<br>renamed to */scanape} as of PimpBot 4.2
+<br>renamed to */scanape* as of PimpBot 4.2
 
 */loaddir -ld*
 <br>load files from a directory; directory must follow sensible defaults
