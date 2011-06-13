@@ -1,0 +1,19 @@
+{{{[PimpBot]
+Version=
+
+[Installer]
+
+[Settings]
+PimpDir=%%MYDOCS%%\My PimpBot Files
+AVSDir=
+OutputFile=%%TITLE%%
+OutputDir=%%DESKTOP%%
+TempDir=
+Passphrase=
+Tag=
+Update=1
+Cheats=1
+
+[SettingsBU]
+AutoClose=0
+Terminator=3}}}
