@@ -14,3 +14,10 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 *Cheats*
 <br>enable/disable website autocompletion
 <br>possible values: 0|1
+
+*AutoClose*
+close after backup completion
+<br>possible values: 0|1
+
+*Terminator*
+<br>countdown in seconds before termination
