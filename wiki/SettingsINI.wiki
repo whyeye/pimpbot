@@ -2,7 +2,10 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 
 ==Settings==
 *PimpDir*
-location for project files (.pimp), can make use of constants %%APPDATA%%, %%DESKTOP%%, %%EXEDIR%%, or %%MYDOCS%%
+<br>location for project files (.pimp)
+
+*AVSDir*
+<br>location of the AVS folder, required for detection of resource files
 
 *Tag*
 <br>default tag-file for your installer
