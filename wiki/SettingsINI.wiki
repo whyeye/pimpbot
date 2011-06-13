@@ -6,3 +6,11 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 *Tag*
 <br>default tag-file for your installer
 <br>e.g. _C:\full\path\to\mytag.diz_
+
+*Update*
+<br>enable/disable update checker
+<br>possible values: 0|1
+
+*Cheats*
+<br>enable/disable website autocompletion
+<br>possible values: 0|1
