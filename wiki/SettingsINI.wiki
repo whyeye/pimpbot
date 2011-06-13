@@ -1,19 +1,19 @@
-{{{[PimpBot]
-Version=
+[[PimpBot]]<br/>
+Version=<br/>
+<br/>
+[Installer]]<br/>
+<br/>
+[[Settings]<br/>
+PimpDir=<br/>
+AVSDir=<br/>
+OutputFile=<br/>
+OutputDir=<br/>
+TempDir=<br/>
+Passphrase=<br/>
+Tag=<br/>
+Update=<br/>
+Cheats=<br/>
 
-[Installer]
-
-[Settings]
-PimpDir=%%MYDOCS%%\My PimpBot Files
-AVSDir=
-OutputFile=%%TITLE%%
-OutputDir=%%DESKTOP%%
-TempDir=
-Passphrase=
-Tag=
-Update=1
-Cheats=1
-
-[SettingsBU]
-AutoClose=0
-Terminator=3}}}
+[[SettingsBU]]<br/>
+AutoClose=<br/>
+Terminator=
