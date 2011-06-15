@@ -1,6 +1,8 @@
 ===Why is my installer reported as virus/malware?===
 This is a common problem with all installers generated with [NSIS]. In most cases this should be a false-positive, that you should report to the manufacturer of your anti-virus software. For more detail read this [http://nsis.sourceforge.net/NSIS_False_Positives article] from the NSIS Wiki.
 
+As of Pimpbot 4.2, this problem should not longer occur as frequently as before. Previous versions used UPack header compression which triggers most antivirus programs. Since the switch to [http://upx.sf.net UPX], [http://virustotal.com VirusTotal] hasn't reported a single virus on any tested installer.
+
 ----
 
 ===Why is the background of some textfields colored green, yellow or red?===
