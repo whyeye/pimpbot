@@ -13,11 +13,11 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 
 *Update*
 <br>enable/disable update checker
-<br>possible values: 0|1
+<br>possible values: 0 | 1
 
 *Cheats*
 <br>enable/disable website autocompletion
-<br>possible values: 0|1
+<br>possible values: 0 | 1
 
 *TempDir*
 <br>currently not in use
@@ -25,7 +25,7 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 ==SettingsBU==
 *AutoClose*
 <br>close after backup completion
-<br>possible values: 0|1
+<br>possible values: 0 | 1
 
 *Terminator*
 <br>countdown in seconds before termination
