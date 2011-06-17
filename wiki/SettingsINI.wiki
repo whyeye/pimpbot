@@ -20,7 +20,7 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 <br>possible values: 0 | 1
 
 *TempDir*
-<br>currently not in use
+<br>allows using an alternative temporary folder (PimpBot 4.3 and later)
 
 ==SettingsBU==
 *AutoClose*
