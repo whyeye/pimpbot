@@ -3,6 +3,7 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 ==Settings==
 *PimpDir*
 <br>location for project files (.pimp)
+<br>must be a path to any writable folder
 
 *AVSDir*
 <br>location of the AVS folder, required for detection of resource files
@@ -25,7 +26,7 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 
 *TempDir*
 <br>allows using an alternative temporary folder (PimpBot 4.3 and later)
-<br>possible values: path to any writable folder
+<br>must be a path to any writable folder
 
 ==SettingsBU==
 *AutoClose*
