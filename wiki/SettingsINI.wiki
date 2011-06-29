@@ -19,8 +19,13 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 <br>enable/disable website autocompletion
 <br>possible values: 0 | 1
 
+*RunOnWin9x*
+<br>hides OS warning on launch (PimpBot 4.4.1 and later)
+<br>possible values: 0 | 1
+
 *TempDir*
 <br>allows using an alternative temporary folder (PimpBot 4.3 and later)
+<br>possible values: path to any writable folder
 
 ==SettingsBU==
 *AutoClose*
