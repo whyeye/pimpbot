@@ -54,6 +54,6 @@ These features were introduced with PimpBot 3.2 and both are no longer available
 
 ===Is there a portable version of PimpBot?<br>Does PimpBot work on Windows 95/98/Me?===
 
-PimpBot is already portable. After completing installation, you can run the compiler using the /portable CommandLineParameter and it will copy your settings to the active folder.
+PimpBot is already portable. After completing installation, you can run the compiler using the /portable switch and it will copy your settings to the active folder.
 
 The same switch enables PimpBot to work (very) old versions of Windows. However, there are some [http://code.google.com/p/pimpbot/wiki/Windows9x known bugs] and probably some further issues as PimpBot was not designed to support these platforms. For better compatibility, it is recommended to use older versions of PimpBot, though these are no longer supported or updated.
