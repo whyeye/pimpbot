@@ -53,6 +53,10 @@
 <br>used with the _/loadfile_ command, this will compile an installer silently
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /passive=1_
 
+*/portable -pt*
+<br>sets up PimpBot for portable mode, moving settings file to %PROGRAMFILES%
+<br>e.g. _/portable=1
+
 */scanape -sa*
 <br>used with the _/loadfile_ command, this will detect required APEs
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /scanape=1_
