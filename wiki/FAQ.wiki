@@ -43,3 +43,17 @@ The _/unzip_ switch can be used to extract all contents of the installer to the 
 [NSIS]'s default _/D_ switch will set your preferred installation directory (e.g. "_My Installer.exe /D=C:\Program Files\Winamp"_.)
 
 If the problem persists, even after removing and installing [Winamp], please report an [http://code.google.com/p/pimpbot/issues/list Issue].
+
+----
+
+===Why does my installer no longer use a [Winamp] skin?<br>What happened to background music?===
+
+These features were introduced with PimpBot 3.2 and both are no longer available in PimpBot 4. There are no plans to bring these back.
+
+----
+
+===Is there a portable version of PimpBot?<br>Does PimpBot work on Windows 95/98/Me?===
+
+PimpBot is already portable. After completing installation, you can run the compiler using the /portable CommandLineParameter and it will copy your settings to the active folder.
+
+The same switch enables PimpBot to work (very) old versions of Windows. However, there are some [http://code.google.com/p/pimpbot/wiki/Windows9x known bugs] and probably some further issues as PimpBot was not designed to support these platforms. For better compatibility, it is recommended to use older versions of PimpBot, though these are no longer supported or updated.
