@@ -54,7 +54,7 @@
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /passive=1_
 
 */portable -pt*
-<br>sets up PimpBot for portable mode, moving settings file to %PROGRAMFILES%
+<br>sets up PimpBot for portable mode, copying settings file to %PROGRAMFILES%
 <br>e.g. _/portable=1
 
 */scanape -sa*
