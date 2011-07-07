@@ -37,9 +37,13 @@
 <br>will use the default NSIS UI instead of Modern UI, does not support settings page or wizard image
 <br>e.g. _/nomui=1_
 
+*/noout -no*
+<br>skips creation of installer and _.pimp_ file
+<br>e.g. _/noout=1_
+
 */nopimp -np*
 <br>PimpBot creates an installer, but skips the _.pimp_ file
-<br>e.g. _/pimp=1_
+<br>e.g. _/nopimp=1_
 
 */outdir -od*
 <br>override the default output directory, requires a valid directory
@@ -64,6 +68,10 @@
 */scanres -sr*
 <br>used with the _/loadfile_ command, this will detect required resource files (images, videos etc.)
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp" /scanres=1_
+
+*/script -ls*
+<br>makes PimpBot use a custom NSIS template, rather than its internal script
+<br>e.g. _/scipt="C:\Path\to\My Script.nsi"_
 
 */waskin -ws*
 <br>injects a Winamp skin to the installer, can be installed optionally
