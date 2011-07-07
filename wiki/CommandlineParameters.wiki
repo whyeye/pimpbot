@@ -8,6 +8,9 @@
 */detectape -da*
 <br>renamed to */scanape* as of PimpBot 4.2
 
+*/flush*
+<br>reset PimpBot to its default settings
+
 */loaddir -ld*
 <br>load files from a directory; directory must follow sensible defaults
 <br>e.g. _/loaddir="C:\My Directory"_
@@ -111,3 +114,31 @@
 
 */S*
 <br>runs the installer silenty; case-sensitive switch, [NSIS] default
+
+==PimpBot Backup==
+*/help -?*
+<br>shows program version and a list of available commandline switches
+
+*/flush*
+<br>reset PimpBot Backup to its default settings
+
+*/loadfile -lf*
+<br>load a .pimp file
+<br>e.g. _/loadfile="C:\path\to\myfile.pimp"_
+
+==PimpBot Runtime==
+*/help -?*
+<br>shows program version and a list of available commandline switches
+
+*/loadfile -lf*
+<br>load a .pimp file
+<br>e.g. _/loadfile="C:\path\to\myfile.pimp"_
+
+*/details*
+<br>forces an installer to verbose mode to review its actions
+
+*/nodetails*
+<br>forces an installer to quiet mode
+
+*/nosplash*
+<br>disables splash screen
