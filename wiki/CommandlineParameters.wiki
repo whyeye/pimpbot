@@ -136,9 +136,12 @@
 
 */details*
 <br>forces an installer to verbose mode to review its actions
+<br>e.g. _/details=1_
 
 */nodetails*
 <br>forces an installer to quiet mode
+<br>e.g. _/nodetails=1_
 
 */nosplash*
 <br>disables splash screen
+<br>e.g. _/nosplash=1_
