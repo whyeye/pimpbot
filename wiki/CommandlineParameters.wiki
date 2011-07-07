@@ -134,14 +134,14 @@
 <br>load a .pimp file
 <br>e.g. _/loadfile="C:\path\to\myfile.pimp"_
 
-*/details*
+*/details -sd*
 <br>forces an installer to verbose mode to review its actions
 <br>e.g. _/details=1_
 
-*/nodetails*
+*/nodetails -nd*
 <br>forces an installer to quiet mode
 <br>e.g. _/nodetails=1_
 
-*/nosplash*
+*/nosplash -ns*
 <br>disables splash screen
 <br>e.g. _/nosplash=1_
