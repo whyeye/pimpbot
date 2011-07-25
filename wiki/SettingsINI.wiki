@@ -33,7 +33,7 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 <br>must be a path to any writable folder
 
 *AutoClose*
-<br>close backup after x second
+<br>closes PimpBot Backup after x second
 
 ~~*Terminator*
 <br>countdown in seconds before termination~~
