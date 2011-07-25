@@ -20,6 +20,10 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 <br>enable/disable website autocompletion
 <br>possible values: 0 | 1
 
+*AeroStyle*
+<br>enables Aero style for installers
+<br>possible values: 0 | 1
+
 *RunOnWin9x*
 <br>hides OS warning on launch (PimpBot 4.4.1 and later)
 <br>possible values: 0 | 1
