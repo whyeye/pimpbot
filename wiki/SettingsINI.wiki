@@ -32,10 +32,9 @@ The _settings.ini_ located in %APPDATA%\PimpBot allows modifying some of applica
 <br>allows using an alternative temporary folder (PimpBot 4.3 and later)
 <br>must be a path to any writable folder
 
-==SettingsBU==
 *AutoClose*
 <br>close after backup completion
 <br>possible values: 0 | 1
 
-*Terminator*
-<br>countdown in seconds before termination
+~~*Terminator*
+<br>countdown in seconds before termination~~
