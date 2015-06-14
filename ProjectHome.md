@@ -1,0 +1,5 @@
+PimpBot is a graphical interface, which let's the user create a Nullsoft Installer ([NSIS](NSIS.md)) for various Winamp plugins with just a few mouse-clicks.
+
+You are creating [AVS](AVS.md), MilkDrop or SPS presets for [Winamp](Winamp.md) and look for a convenient way to create installers. The PimpBot Compiler offers a graphical user interface for the creation of [NSIS](NSIS.md) installers. Create installers that automatically detect [Winamp](Winamp.md), aswell as the APEs your presets might need. Customize the appearance of your installer by changing its icons and other graphical elements <strike>or by applying any Winamp 5 Classic Skin</strike>. Install fonts, point users to the website. All this without any knowledge of NSIS, it just takes a couple of mouse-clicks.
+
+In addition, PimpBot contains a component for easy backups of Winamp related files like your [AVS](AVS.md) or MilkDrop presets and their required files. Unique to PimpBot Backup is it's dual-backup funtionality, allowing two backup targets at once, with support for local directories, FTP servers, WebDAV and DropBox.

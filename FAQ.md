@@ -1,0 +1,75 @@
+### Why is my installer reported as virus/malware? ###
+This is a common problem with all installers generated with [NSIS](NSIS.md). In most cases this should be a false-positive, that you should report to the manufacturer of your anti-virus software. For more detail read this [article](http://nsis.sourceforge.net/NSIS_False_Positives) from the NSIS Wiki.
+
+As of Pimpbot 4.2, this problem should not longer occur as frequently as before. Previous versions used UPack header compression which triggers most antivirus programs. Since the switch to [UPX](http://upx.sf.net), [VirusTotal](http://virustotal.com) hasn't reported a single virus on any tested installer.
+
+
+---
+
+
+### Why is the background of some textfields colored green, yellow or red? ###
+PimpBot uses color indicators to give direct response to the user. Mandatory fields have a yellow background, correctly entered data will have green and invalid data a red background.
+
+
+---
+
+
+### How can I install my pack to a sub-folder? ###
+To install your pack into a subdirectory such as _Winamp\Plugins\avs\My Nick\My Pack_ you need to store your desired directory-structure in a directory _MyDirectory_. In PimpBot, choose this directory as the source of your presets and activate the Include Subdirs checkbox. This will work with any directory-structure, be it multiple directories or x subdirectories.
+
+
+---
+
+
+### Why is my installer file so huge? ###
+This usually happens when including big splash screens or sounds. You should always reduce the color-palette of bitmaps and save them in the lowest possible colordepth <strike>and use <a href='http://en.wikipedia.org/wiki/Run-length_encoding'>Run-length Encoding</a> (RLE compression)</strike>. For splash sounds you can apply compression at low bitrates (e.g. 32kbps Mono), However, you must maintain the WAVE file format. Tools such as [CDex](http://cdex.sourceforge.net) (and most other tools using [LAME](http://lame.sourceforge.net/)) have the option to compress to [RIFF-WAVE](http://www.afterdawn.com/glossary/terms/riff-wav.cfm).
+
+
+---
+
+
+### Why does compilation fail and the _error.log_ is empty? ###
+There might be many reasons for this. However, during all the testing we only came across this one following example.
+
+By default, [NSIS](NSIS.md) has a maximum string length of 1024 bytes. If you're installers includes a _lot_ of directories and you're trying to use a settings page, compilation will fail. In that case install the [NSIS Special Build](http://nsis.sourceforge.net/Special_Builds) for large strings.
+
+
+---
+
+
+### Is it possible to compile multiple _.pimp_ files at once? ###
+You can use the CommandlineParameters to control PimpBot's behaviour. In the installation directory of PimpBot, you will find a couple of useful scripts in the _/tools_ folder. Right-click the file called _multitool.nsi_ and choose to "Compile NSIS script." This will create an executable that helps you to compile many files sequentially.
+
+
+---
+
+
+### Why does the installer not recognize my [Winamp](Winamp.md) directory?<br>Why is the visualization plugin not found?</h3>
+
+In very unusual [Winamp](Winamp.md) setups, it can might happen that an installer does not recognize your [Winamp](Winamp.md) installation correctly. It might also happen, that the DLL of the used visualization plugin can not be found.
+
+There are several workarounds available. Two of them involve passing CommandlineParameters to your installer, it is thus recommended to use simple tools such as [RunWithParameters](http://rwparam.whyeye.org/).
+
+The _/unzip_ switch can be used to extract all contents of the installer to the current directory (e.g. "_My Installer.exe /unzip"_.)
+
+[NSIS](NSIS.md)'s default _/D_ switch will set your preferred installation directory (e.g. "_My Installer.exe /D=C:\Program Files\Winamp"_.)
+
+If the problem persists, even after removing and installing [Winamp](Winamp.md), please report an [Issue](http://code.google.com/p/pimpbot/issues/list).
+
+
+---
+
+
+### Why does my installer no longer use a [Winamp](Winamp.md) skin?<br>What happened to background music?</h3>
+
+These features were introduced with PimpBot 3.2 and both are no longer available in PimpBot 4. There are no plans to bring these back.
+
+
+---
+
+
+### Is there a portable version of PimpBot?<br>Does PimpBot work on Windows 95/98/Me?</h3>
+
+PimpBot is already portable. After completing installation, you can run the compiler using the /portable switch and it will copy your settings to the active folder.
+
+The same switch enables PimpBot to work (very) old versions of Windows. However, there are some [known bugs](http://code.google.com/p/pimpbot/wiki/Windows9x) and probably some further issues. PImpBot was designed to run on Windows 2000 or later. For better compatibility with these outdated platforms, it is recommended to use older versions of PimpBot, though these are no longer supported or updated.

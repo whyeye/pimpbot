@@ -1,0 +1,3 @@
+Winamp is a media player for Windows-based PCs, written by Nullsoft, now a subsidiary of AOL. It is proprietary freeware/shareware, multi-format, extensible with plug-ins and skins, and is noted for its graphical sound visualization, playlist, and media library features. Winamp was released by Justin Frankel in 1997, and its popularity grew quickly, along with the developing trend of MP3 file-sharing.
+
+**[Website](http://www.winamp.com/)** | [Download](http://www.winamp.com/media-player) | [Old versions](http://www.oldversion.com/Winamp.html)
